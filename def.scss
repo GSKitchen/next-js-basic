@@ -1,0 +1,13 @@
+@import "@material/react-button/index.scss";
+@import "@material/button/mixins";
+
+.button-alternate {
+    @include mdc-button-container-fill-color(rgb(11, 147, 192));
+}
+
+$font-size: 150px;
+.example {
+  font-size: $font-size;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

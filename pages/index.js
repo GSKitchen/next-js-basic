@@ -1,6 +1,8 @@
 import MyLayout from "../comps/MyLayout";
 import Link from "next/link";
 import fetch from 'isomorphic-unfetch';
+import Button from '@material/react-button';
+import '../def.scss';
 
 // import MyLayout from "../comps/MyLayout";
 // import Link from "next/link";
@@ -55,6 +57,8 @@ const Index = (props) => {
     return ( 
         <MyLayout>
             <h1>Batman TV Shows</h1>
+            <Button raised className="button-alternate">The A</Button>
+            <p className="example">ok ji</p>
             <ul>
                 {props.shows.map((show) =>{
                     return(

@@ -1,4 +1,5 @@
 import Header from "./Header";
+//import './styles.scss';
 
 const layoutStyle = {
     margin: 20,
@@ -10,6 +11,7 @@ const MyLayout = (props) => {
     return ( 
         <div style={layoutStyle}>
             <Header />
+            <hr />
             {props.children}
         </div>
      );
